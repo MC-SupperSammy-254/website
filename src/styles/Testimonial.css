@@ -1,0 +1,18 @@
+.testimonials  {
+  height: 90vh;
+  
+}
+
+.testimonials .testimony {
+  background: #d4d0d0;
+  border-radius: 15px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 0;
+
+}
+img {
+  width: 300px;
+  height: 170px;
+}

@@ -1,0 +1,94 @@
+.about {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex: 50%;
+}
+
+/* .aboutTop { */
+  /* width: 95%; */
+  /* height: 45%; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  
+  /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
+/* } */
+
+.aboutTop h2, span {
+  color:#f75023;
+  
+}
+
+.aboutTop p, li {
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  color: #58575c;
+}
+ 
+.about ul {
+  padding-left: 1.5em;
+  text-align: center;
+  list-style-type: none;
+}
+
+.top-btn {
+  text-decoration: none;
+  color: #f75023;
+  font-size: 18px;
+  transform: scale(0.3 ease);
+  
+}
+
+button {
+  border-radius: 15px;
+  margin-bottom: 15px;
+  background: black;
+  /* border: none; */
+}
+button:hover {
+  background-color: #f75023;
+}
+
+.top-btn:hover {
+  background-color: #f75023;
+  color: black;
+}
+
+.aboutBottom {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  height: 55%;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.aboutBottom h3 {
+  color: black;
+  margin-bottom: 0;
+}
+
+.aboutBottom p {
+  width: 1200px;
+}
+
+.about .aboutBottom h1 {
+  font-weight: 400;
+  font-size: 70px;
+  color: black;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-40px);
+}
+
+@media (max-width: 768px) {
+  .about {
+    overflow: hidden;
+  }
+}
