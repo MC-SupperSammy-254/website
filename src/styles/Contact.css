@@ -1,11 +1,23 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .contact {
   width: 100%;
   height: 90vh;
   display: flex;
+  /* flex-wrap: wrap; */
+}
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .contact .leftContact {
-  height: 70%;
+  height: 55%;
   flex: 50%;
   padding-top: 45px;
   margin-top: 40px;
@@ -23,13 +35,13 @@
   height: 100%;
 }
 
-.contact h1 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+/* .contact h1 { */
+  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-weight: 10;
   font-size: 50px;
-  margin-left: 30px;
-}
+  margin-left: 30px; */
+/* } */
 
 form {
   display: flex;
@@ -89,10 +101,26 @@ form button {
 
   .contact {
     width: auto;
+    /* flex-direction: column; */
+
   }
   form button {
     width: auto;
   }
+
+  .form input, form textarea {
+    width: 100%;
+    max-width: 100%;
+  }
+  .contact .leftContact,
+  .contact .rightContact {
+    /* flex: none; */
+    width: 100%;
+  }
+  /* .contact .leftContact {
+  width: 100px;
+  object-fit: contain;
+  } */
 
 }
 

@@ -87,8 +87,8 @@ button:hover {
   transform: translateY(-40px);
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .about {
     overflow: hidden;
-  }
-}
+  } */
+/* } */

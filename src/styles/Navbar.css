@@ -5,6 +5,7 @@
   background-color: black;
   display: flex;
   flex-direction: row;
+  z-index: 2;
 }
 
 .navbar .leftSide {

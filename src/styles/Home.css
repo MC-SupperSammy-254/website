@@ -1,34 +1,37 @@
 .home {
   width: 100%;
   /* background-color: blanchedalmond; */
-  height: 90vh;
+  height: 82vh;
   display: flex;
-  flex: 90%;
+  /* flex: 90%; */
   flex-direction: row;
   justify-content: center;
   align-items: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .home .backgroundImg {
-  
-  width: 55px;
-  height: 400px;
-  align-items: left;
-  background-position: top;
+  position: absolute;
+  top: 36px;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
-  display: flex;
-  flex: 10%;
-  margin: 20px 0 20px 0;
+  background-size: cover;
 }
 
 
 .headerContainer {
+  position: relative;
+  z-index: 1;
   width: auto;
   margin-left: 50px;
   margin-right: 50px;
-  background-color: black;
+  background-color: rgb(15, 14, 14);
   border-radius: 15px;
+  margin-top: 70px;
+  opacity: 78%;
 }
 
 .headerContainer h1 {
@@ -38,6 +41,8 @@
   height: 60px;
   font-weight: 50;
   color: rgb(197, 151, 34);
+  /* color: black; */
+  font-weight: bold;
   margin-bottom: 35px;
 
 }
@@ -75,9 +80,9 @@ button:hover {
 
 @media (max-width: 768px) {
 
-.home .backgroundImg {
+/* .home .backgroundImg {
   height: 600px;
-}
+} */
 
 button {
   width: auto;
