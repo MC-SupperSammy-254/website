@@ -11,7 +11,7 @@ function About() {
 
       <h2> Hi, I'm</h2>
     <h3>Samuel Muthoka</h3>
-    <h4>Event Master | Emceee <span class="country">Nairobi-Kenya</span></h4>
+    <h4>Event Master | Emceee <span className="country">Nairobi-Kenya</span></h4>
     <p>Hi, Welcome to my portfolio. I am a dynamic and versatile Master of Ceremony <br />
        with over 5 years of experience in hosting a diverse range of events,
         from corporate conferences to cultural festivals. <br /> Renowned for crafting 
@@ -31,7 +31,7 @@ function About() {
      <li>Fluent in both English and Kiswahili, allowing for bilingual events</li>
     </ul>  
       </div>
-    <button>
+    <button className='btn2'>
       <a 
         href={Resume} 
         target="_blank" 

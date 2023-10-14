@@ -1,37 +1,70 @@
 .home {
   width: 100%;
-  /* background-color: blanchedalmond; */
-  height: 82vh;
+  height: 180vh;
+  background: #fff;
   display: flex;
-  /* flex: 90%; */
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.home .backgroundImg {
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .home .backgroundImg {
   position: absolute;
-  top: 36px;
+  padding-top: 30px;
   left: 0;
-  z-index: 1;
   width: 100%;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+} */
+
+.container {
+  max-width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 20px auto;
+  /* overflow: auto; */
+  justify-content: center;
+  align-items: center;
+  max-height: calc(120vh - 60px);
 }
 
 
+
+h4, p {
+font-size: 16px;
+color:#333;
+z-index: 2;
+margin: 2px;
+font-family: Montserrat, sans-serif;
+}
+
 .headerContainer {
-  position: relative;
-  z-index: 1;
-  width: auto;
+  display: flex;
+  flex-direction: column;
+  width: 1090px;
   margin-left: 50px;
   margin-right: 50px;
-  background-color: rgb(15, 14, 14);
+  background-color: rgb(31, 30, 30, 30);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 15px;
-  margin-top: 70px;
-  opacity: 78%;
+  margin-top: 74px;
+  opacity: 79%;
+  transition: transform 03s ease;
+  margin-bottom: 20px;
+}
+
+.headerContainer:hover {
+  transform: scale(1.1);
 }
 
 .headerContainer h1 {
@@ -41,7 +74,6 @@
   height: 60px;
   font-weight: 50;
   color: rgb(197, 151, 34);
-  /* color: black; */
   font-weight: bold;
   margin-bottom: 35px;
 
@@ -62,7 +94,10 @@
 }
 
 .btnHome  {
-  color: rgb(18, 96, 96);
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transition: all 0.3s ease; 
   color: black;
   font-size: 18px;
   height: 40px;
@@ -73,22 +108,29 @@
   padding-right: 10px;
 }
 
-button:hover {
+.btnHome:hover {
   background-color: #f75023;
   color: black;
+  transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
 
-/* .home .backgroundImg {
-  height: 600px;
-} */
+.home {
+   height: 634px;
+}
+
+.home .backgroundImg {
+  height: 101%;
+}
 
 button {
   width: auto;
 }
+
 .headerContainer h1 {
-  margin-bottom: 55px;
+  margin-bottom: 50px;
+  font-size: 39px;
 }
 
 }

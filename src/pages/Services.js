@@ -44,7 +44,7 @@ function Services() {
           <li>Announcements and Branding</li>
           <li>Engagement and Interaction</li>
           <li>Enhance Positive Energy</li>
-          <li>Facilitating the flow of a corporate event or conference.</li>
+          {/* <li>Facilitating the flow of a corporate event or conference.</li> */}
         </ul>
       </div>
 
@@ -80,7 +80,7 @@ function Services() {
         </ul>
       </div>
 
-      <div class="card">
+      <div className="card">
         <h3>Graduation & Award Ceremonies</h3>
          <img src={BannerImage7} alt="Weddings & Ruracio" className="imageBox" />
        
@@ -91,7 +91,7 @@ function Services() {
         </ul>
       </div>
 
-      <div class="card">
+      <div className="card">
         <h3>Team Building</h3>
         <img src={BannerImage8} alt="Weddings & Ruracio" className="imageBox" />
        
@@ -102,7 +102,7 @@ function Services() {
         </ul>
       </div>
 
-      <div class="card">
+      <div className="card">
         <h3>Fundraising & Charity Events</h3>
          <img src={BannerImage9} alt="Weddings & Ruracio" className="imageBox" />
         

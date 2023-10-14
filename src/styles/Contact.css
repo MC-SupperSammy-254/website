@@ -5,8 +5,9 @@
 
 .contact {
   width: 100%;
-  height: 90vh;
+  height: 120vh;
   display: flex;
+  margin-bottom: 0;
   /* flex-wrap: wrap; */
 }
 body {
@@ -17,11 +18,11 @@ body {
 }
 
 .contact .leftContact {
-  height: 55%;
-  flex: 50%;
+  height: 72%;
+  flex: 40%;
   padding-top: 45px;
   margin-top: 40px;
-  
+  margin-left: 5px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,7 +30,7 @@ body {
 
 .contact .rightContact {
   display: flex;
-  flex: 50%;
+  flex: 60%;
   flex-direction: column;
   justify-content: center;
   height: 100%;
@@ -87,7 +88,7 @@ form label {
 }
 
 form button {
-  margin-top: 20px;
+  margin-top: 30px;
   width: 140px;
   height: 35px;
   border: none;
@@ -101,11 +102,17 @@ form button {
 
   .contact {
     width: auto;
-    /* flex-direction: column; */
+    height: 634px;
+    flex-direction: column;
+    margin-bottom: 0px;
 
   }
   form button {
-    width: auto;
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 0; */
+    margin-bottom: 0;
   }
 
   .form input, form textarea {
@@ -117,10 +124,12 @@ form button {
     /* flex: none; */
     width: 100%;
   }
-  /* .contact .leftContact {
-  width: 100px;
-  object-fit: contain;
-  } */
+  .contact .leftContact {
+  width: 98%;
+  margin-right: 5px;
+
+  /* object-fit: contain; */
+  }
 
 }
 
